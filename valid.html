@@ -1,0 +1,63 @@
+<html>
+<body bgcolor="pink">
+<h1 align="center"style="color:blue"><u>STUDENT REGISTRATION FORM</u></h1>
+<form name=pooja>
+<TH>
+FIRST NAME :
+<input type="text" name= "FNAME" size="10" ><BR><BR>
+MIDDLE NAME :
+<input type="text" name="MNAME" size="10" ><BR><BR>
+LAST NAME :
+<input type="text" name="LNAME" size="10" ><BR><BR>
+DATE OF BIRTH:
+<input type="DATE" name="DOB" size="10" ><BR><BR>
+
+
+EMAIL:
+<input type="email" name="email"><br><br>
+PHONE NUMBER:
+<input type="number" name="phone"><br><br>
+USER NAME:
+<input type="text"><br><br>
+GENDER :
+<input type="radio" name="radiobutton" value="radio" VALUE="MALE">MALE	
+<input type="radio" name="radiobutton" value="radio" VALUE="FEMALE">FEMALE
+<input type="radio" name="radiobutton" value="radio" VALUE="MALE">OTHER	<br><br>
+
+	
+PASSWORD :
+<input type="password" name="pass"><BR><BR>
+<input type="submit" name="submit" value="SUBMIT" onclick="validateform()">
+<input type="reset" name="reset" value="RESET"><br><BR>
+</form>
+<script>
+function validateform(){
+if(document.pooja.FNAME.value=="")
+{
+alert("please provide your first name");
+document.pooja.FNAME.focus();
+return false;
+}
+if(document.pooja.MNAME.value=="")
+{
+alert("please provide your middle name");
+document.pooja.MNAME.focus();
+return false;
+}
+if(document.pooja.LNAME.value="")
+{
+alert("please provide your last name");
+document.pooja.LNAME.focus();
+return false;
+}
+if(document.pooja.phone.value="")
+{
+alert("please provide your phone number");
+document.pooja.phone.focus();
+return false;
+}
+}
+</script>
+</body>
+</html>
+
