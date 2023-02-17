@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>  my world </title>
+</head>
+<style>
+#para{
+  color:green;
+  text-align:center;
+  font-size:15;
+}
+h1{
+ color:blue;
+  text-align:center;
+  font-size:60;
+}
+p{
+  color:red;
+  text-align:left;
+  font-size:20;
+}
+#para1{
+border:1px solid black;
+  
+color:green;
+  text-align:left;
+  font-size:20;
+padding;10px;
+margin;40px;
+background-color:grey;
+}
+body{
+background-image:url("flower.jpg");
+}
+div{
+text-decoration:overline;
+font-size:30%
+}
